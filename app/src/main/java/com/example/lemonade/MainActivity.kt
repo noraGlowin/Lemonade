@@ -78,7 +78,7 @@ class MainActivity : AppCompatActivity() {
             false
         }
         lemonImage!!.setOnLongClickListener {
-            showSnackbar()
+            false
         }
     }
 
